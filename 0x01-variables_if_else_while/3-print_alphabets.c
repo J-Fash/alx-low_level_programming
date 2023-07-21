@@ -7,13 +7,13 @@
 
 int main(void)
 {
-	char alph;
+	char c;
 
-	for (alph = 'a'; alph <= 'z'; alph++)
-		putchar('alph');
+	for (c = 'a'; c <= 'z'; c++)
+		putchar('c');
 
-	for (alph = 'A'; alph <= 'Z'; alph++)
-		putchar('alph');
+	for (c = 'A'; c <= 'Z'; c++)
+		putchar('c');
 	putchar('\n');
 	return (0);
 }
