@@ -4,10 +4,9 @@
 /**
  * _strchr - Entry point
  * @s: input
- * @C: input
+ * @c: input
  * Return: Always 0 (Success)
  */
-
 char *_strchr(char *s, char c)
 {
 	int i;
@@ -15,7 +14,7 @@ char *_strchr(char *s, char c)
 	for (i = 0; s[i] >= '\0'; i++)
 	{
 		if (s[i] == c)
-			return (s + 1);
+			return (s + i);
 	}
 
 	return (NULL);
